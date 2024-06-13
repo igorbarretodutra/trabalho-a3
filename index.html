@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INCITATUS</title>
+    <link rel="shortcut icon" href="./icon inaciyus.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+         <img src="./icon inaciyus.png" alt="">
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href=sobre.html target="_blank">Sobre a Moto</a></li>
+                <li><a href="#pre-venda">Pré-venda</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#inspiracao">Inspiração</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--BANNER-->
+
+    <section class="foco">
+<div class="ban"> 
+    <h1>
+        Sinta a
+        <br>
+        liberdade
+        <br>
+        sobre duas
+        <br>
+        rodas
+    </h1>
+</div>
+
+<main>
+<br>
+<br>
+<br>
+</div>
+    <section id="pre-venda">
+        <h2>Pré-venda</h2>
+        <p>Prepare-se para ser parte da revolução! Garanta já a sua Revolution Moto na pré-venda. Ao fazer a reserva antecipada, você terá acesso exclusivo a descontos especiais e brindes exclusivos.</p>
+        <p>Preencha o formulário abaixo para receber mais informações sobre como participar da pré-venda:</p>
+
+<div class="container">
+
+    <form action="c.html" method="post">
+        <label for="email">Seu e-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <a href="cad.html" <button type="submit" class="botao">Compre Já</button></a>
+    </form>
+</div>
+        
+    </section>
+
+
+
+    <section id="tecnologia">
+        <h2>Tecnologia</h2>
+        <p>A Revolution Moto está equipada com o que há de mais avançado em termos de tecnologia. Desde o sistema de infotainment até os assistentes de condução inteligentes, cada aspecto desta moto foi projetado para proporcionar uma experiência de pilotagem incomparável.</p>
+        <p>Principais características tecnológicas:</p>
+        <ul>
+            <li>Sistema de infotainment intuitivo</li>
+            <li>Assistentes de condução inteligentes</li>
+            <li>Motor de última geração com tecnologia de...</li>
+        </ul>
+    </section>
+
+    <section id="design">
+        <h2>Design</h2>
+        <p>Estilo e elegância definem a Revolution Moto. Cada detalhe foi meticulosamente pensado para criar uma estética que impressiona à primeira vista e continua encantando a cada olhar.</p>
+        <p>Principais características de design:</p>
+        <ul>
+            <li>Linhas fluidas que transmitem uma sensação de velocidade e dinamismo</li>
+            <li>Acabamentos premium que combinam durabilidade e sofisticação</li>
+            <li>Estética que combina tradição e inovação de forma única</li>
+        </ul>
+    </section>
+
+    <section id="inspiracao">
+        <h2>Inspiração</h2>
+        <p>Incitatus foi o cavalo preferido do imperador romano Calígula. Conhecido por sua velocidade e elegância, Incitatus era mais do que apenas um cavalo; era um símbolo de poder e prestígio.</p>
+        <p>Assim como Incitatus, nossa moto representa a união perfeita entre velocidade, poder e elegância. Inspirados na lenda deste magnífico cavalo, desenvolvemos a Incitatus para ser uma verdadeira obra de arte sobre duas rodas.</p>
+        <img src="./img/horses-430441_1280.jpg" alt="">
+        <p>Valores de Incitatus que refletimos em nossa moto:</p>
+        <ul>
+            <ul>
+                <li><strong>Velocidade:</strong> Desempenho incomparável em todas as estradas.</li>
+                <li><strong>Elegância:</strong> Design arrojado que chama a atenção por onde passa.</li>
+                <li><strong>Prestígio:</strong> Uma moto exclusiva para os verdadeiros entusiastas.</li>
+            </ul>
+        </ul> 
+        
+
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Tem alguma dúvida ou gostaria de mais informações sobre a moto? Entre em contato conosco preenchendo o formulário abaixo:</p>
+        <form action="#" method="post">
+            <form action="msg.html" method="post"></form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <a href="msg.html"><button type="submit" class="custom-button">Enviar</button></a>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Revolution Moto. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script>
+        // Função para redirecionar para a página "Cadastrado com Sucesso"
+        function redirecionarCadastradoSucesso() {
+            window.location.href = "cadastrado_sucesso.html";
+        }
+
+        // Função para exibir o aviso "Mensagem Enviada"
+        function exibirMensagemEnviada() {
+            alert("Sua mensagem foi enviada com sucesso! Entraremos em contato em breve.");
+        }
+
+        // Adicionar evento de clique ao botão "Compre Já"
+        document.getElementById("btnCompreJa").addEventListener("click", redirecionarCadastradoSucesso);
+
+        // Adicionar evento de envio ao formulário de mensagem
+        document.getElementById("formMensagem").addEventListener("submit", exibirMensagemEnviada);
+    </script>
+</body>
+
+</html>

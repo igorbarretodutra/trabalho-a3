@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+}
+
+
+.roda h2{
+color: white;
+font-size: 60px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header{
+	background-color:white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	
+}
+.totoca{
+
+	margin-top: 5%;
+}
+
+.totoca h2{
+	color: white;
+	font-size: 70px;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 40px;
+}
+
+.totoca h1{
+	font-size: 50px;
+	color: #FF5733;
+	font-family: 'Poppins', sans-serif;
+
+margin-left: 120px;
+}
+
+.totoca p{
+	max-width: 380px;
+	font-weight: 500;
+	font-size: 23px;
+	color: white;
+	margin-left: 50px;
+}
+
+header img{
+	position: absolute;
+	top: -30px;
+	left: 50px;
+	
+}
